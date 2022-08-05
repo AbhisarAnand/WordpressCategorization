@@ -1,0 +1,60 @@
+USE LPBI2;
+DROP TABLE IF EXISTS author_names;
+CREATE TABLE author_names (
+    user_login varchar(60),
+    user_name varchar(120)
+);
+
+INSERT INTO author_names (user_login, user_name) VALUES ('pkandala', 'Prabodh Kandala');
+INSERT INTO author_names (user_login, user_name) VALUES ('2012pharmaceutical', 'Aviva Lev-Ari');
+INSERT INTO author_names (user_login, user_name) VALUES ('ritusaxena', 'Ritu Saxena');
+INSERT INTO author_names (user_login, user_name) VALUES ('alankaul', 'Alan Kaul');
+INSERT INTO author_names (user_login, user_name) VALUES ('kullback', 'Larry Bernstein');
+INSERT INTO author_names (user_login, user_name) VALUES ('aviralvatsa', 'Aviral Vatsa');
+INSERT INTO author_names (user_login, user_name) VALUES ('sudiptasaha1977', 'Sudipta Saha');
+INSERT INTO author_names (user_login, user_name) VALUES ('anamikasarkar', 'Anamika Sarkar');
+INSERT INTO author_names (user_login, user_name) VALUES ('megbaker58', 'Meg Baker');
+INSERT INTO author_names (user_login, user_name) VALUES ('drornir0305', 'Dror Nir');
+INSERT INTO author_names (user_login, user_name) VALUES ('sjwilliamspa', 'Stephen Williams');
+INSERT INTO author_names (user_login, user_name) VALUES ('tildabarliya', 'Tilda Barliya');
+INSERT INTO author_names (user_login, user_name) VALUES ('zs22', 'Zohi Sternberg');
+INSERT INTO author_names (user_login, user_name) VALUES ('demetsag', 'Demet Sag');
+INSERT INTO author_names (user_login, user_name) VALUES ('aashirawan', 'Aashir Awan');
+INSERT INTO author_names (user_login, user_name) VALUES ('kislauskis', 'Ed Kislauskis');
+INSERT INTO author_names (user_login, user_name) VALUES ('jdpmd', 'Justin Pearlman');
+INSERT INTO author_names (user_login, user_name) VALUES ('apreconasia', 'Michael, Ward');
+INSERT INTO author_names (user_login, user_name) VALUES ('zraviv06', 'Ziv Raviv');
+INSERT INTO author_names (user_login, user_name) VALUES ('ltcolvivek', 'Vivek Lal');
+INSERT INTO author_names (user_login, user_name) VALUES ('irirobu', 'Irina Robu');
+INSERT INTO author_names (user_login, user_name) VALUES ('adamsonn4', 'Adam Sonnenberg');
+INSERT INTO author_names (user_login, user_name) VALUES ('danutdaagmailcom', 'Danut Dragoi');
+INSERT INTO author_names (user_login, user_name) VALUES ('rabctrad1', 'Rosalind Codrington');
+INSERT INTO author_names (user_login, user_name) VALUES ('evelinacohn', 'Evelina Cohn');
+INSERT INTO author_names (user_login, user_name) VALUES ('stuartlpbi', 'Stuart Cantor');
+INSERT INTO author_names (user_login, user_name) VALUES ('gailst', 'Gail Thornton');
+INSERT INTO author_names (user_login, user_name) VALUES ('bs3do', 'David Orchard-Webb');
+INSERT INTO author_names (user_login, user_name) VALUES ('kellyperlman', 'Kelly Perlman');
+INSERT INTO author_names (user_login, user_name) VALUES ('marzankhan', 'Marzan Khan');
+INSERT INTO author_names (user_login, user_name) VALUES ('rmandahl', 'Rick Mandahl');
+INSERT INTO author_names (user_login, user_name) VALUES ('alexcrystal6', 'Alex Crystal');
+INSERT INTO author_names (user_login, user_name) VALUES ('madisond2302', 'Madison Davis');
+INSERT INTO author_names (user_login, user_name) VALUES ('jshertok', 'Joel Shertok');
+INSERT INTO author_names (user_login, user_name) VALUES ('jayzmit48', 'Jason Zielonka');
+INSERT INTO author_names (user_login, user_name) VALUES ('ofermar2020', 'Ofer Markman');
+INSERT INTO author_names (user_login, user_name) VALUES ('abhisaranand', 'Abhisar Anand');
+INSERT INTO author_names (user_login, user_name) VALUES ('dmenzin', 'Daniel Menzin');
+INSERT INTO author_names (user_login, user_name) VALUES ('dsmolyar', 'Danielle Smolyar');
+INSERT INTO author_names (user_login, user_name) VALUES ('662amandeep', 'Amandeep Kaur');
+INSERT INTO author_names (user_login, user_name) VALUES ('adinahazan', 'Adina Hazan');
+INSERT INTO author_names (user_login, user_name) VALUES ('pati8688', 'Premalata Pati');
+INSERT INTO author_names (user_login, user_name) VALUES ('srinivassriram', 'Srinivas Sriram');
+INSERT INTO author_names (user_login, user_name) VALUES ('ethancoomber63661', 'Ethan Coomber');
+INSERT INTO author_names (user_login, user_name) VALUES ('yashchd', 'Yash Choudhary');
+INSERT INTO author_names (user_login, user_name) VALUES ('vaishnavee24', 'Vaishnavee Joshi');
+INSERT INTO author_names (user_login, user_name) VALUES ('', 'Venkat Karra');
+INSERT INTO author_names (user_login, user_name) VALUES ('', 'Julie Donnelly');
+/*INSERT INTO author_names (user_login, user_name) VALUES ('noamsteinertomer', '');
+INSERT INTO author_names (user_login, user_name) VALUES ('brightkrav', '');
+INSERT INTO author_names (user_login, user_name) VALUES ('ereadersvisitors', '');
+INSERT INTO author_names (user_login, user_name) VALUES ('julietwu', '');*/
+commit;

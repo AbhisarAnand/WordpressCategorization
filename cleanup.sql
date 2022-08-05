@@ -1,0 +1,6 @@
+USE lpbi2;
+SHOW TABLES;
+
+DROP TABLE IF EXISTS author_names;
+DROP TABLE IF EXISTS invalid_posts;
+DROP TABLE IF EXISTS post_type;
